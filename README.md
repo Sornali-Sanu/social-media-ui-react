@@ -14,7 +14,9 @@ This is a front-end-only design of a social media web application built with **R
 ## 🔥 Demo Screenshot
 
 ![Login](./doc/login.png)
-![Login](./doc/login.png)
+![register](./doc/register.png)
+![home](./doc/home.png)
+![profile](./doc/profile.png)
 
 
 
