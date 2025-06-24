@@ -12,11 +12,24 @@ This is a front-end-only design of a social media web application built with **R
 ---
 
 ## 🔥 Demo Screenshot
+```
+LogIn:
 
 ![Login](./doc/login.png)
+
+Register:
+
 ![register](./doc/register.png)
+
+Home:
+
 ![home](./doc/home.png)
+
+Profile:
+
 ![profile](./doc/profile.png)
+
+```
 
 
 
@@ -32,27 +45,35 @@ This is a front-end-only design of a social media web application built with **R
 ---
 
 ## 📁 Project Structure
+```
+
+public/
+├── assest/
+│ ├── pofile/img
+│ ├── post/img
+├── style.css
+├── ad.png
 src/
 ├── components/
 │ ├── login/
 │ ├── register/
 │ ├── feed/
-│ └── closeFriend/
+│ ├── closeFriend/
 │ ├── online/
-│ └── post/
+│ ├── post/
 │ ├── topbar/
-│ └── rightbar/
+│ ├── rightbar/
 │ ├── share/
 │ └── sidebar/
 ├── pages/
 │ ├── home/Home.jsx
-│ ├── profile/Profile.jsx
+│ └── profile/Profile.jsx
 ├── dummyData.jsx
 ├── App.jsx
 └── main.jsx
 
 ---
-
+```
 ## 🚀 Getting Started
 ```bash
 # Clone the repo
