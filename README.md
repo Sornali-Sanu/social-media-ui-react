@@ -12,7 +12,7 @@ This is a front-end-only design of a social media web application built with **R
 ---
 
 ## 🔥 Demo Screenshot
-```
+
 LogIn:
 
 ![Login](./doc/login.png)
@@ -28,10 +28,6 @@ Home:
 Profile:
 
 ![profile](./doc/profile.png)
-
-```
-
-
 
 ---
 
@@ -71,9 +67,8 @@ src/
 ├── dummyData.jsx
 ├── App.jsx
 └── main.jsx
-
----
 ```
+---
 ## 🚀 Getting Started
 ```bash
 # Clone the repo
