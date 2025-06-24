@@ -1,13 +1,73 @@
-# React + Vite
+# Social Media App UI (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a front-end-only design of a social media web application built with **React**. The app includes pages for:
 
-Currently, two official plugins are available:
+- 🔐 Login
+- 📝 Registration
+- 🏠 Homepage
+- 👤 Profile
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚧 **Note:** This project is focused on **UI/UX design only**. No backend or functional logic (like authentication, posting, or APIs) has been implemented.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# social-media-ui-react" 
+## 🔥 Demo Screenshot
+
+![Login](./doc/login.png)
+![Login](./doc/login.png)
+
+
+
+---
+
+## 🛠️ Tech Stack
+
+- React (with Vite )
+- CSS3
+- Responsive Layout (Flexbox/Grid)
+- React Router (for navigation)
+
+---
+
+## 📁 Project Structure
+src/
+├── components/
+│ ├── login/
+│ ├── register/
+│ ├── feed/
+│ └── closeFriend/
+│ ├── online/
+│ └── post/
+│ ├── topbar/
+│ └── rightbar/
+│ ├── share/
+│ └── sidebar/
+├── pages/
+│ ├── home/Home.jsx
+│ ├── profile/Profile.jsx
+├── dummyData.jsx
+├── App.jsx
+└── main.jsx
+
+---
+
+## 🚀 Getting Started
+```bash
+# Clone the repo
+git clone https://github.com/your-username/social-media-ui-react.git
+
+# Go to the project directory
+cd social-media-ui-react
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev or npx vite
+
+```
+📌 License
+This project is open-source and free to use for learning and portfolio purposes.
+
+💡 Author
+Your Name – Sornali Akter
